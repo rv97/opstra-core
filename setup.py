@@ -13,9 +13,11 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[], # add any additional packages that 
-        # needs to be installed along with your package. Eg: 'caer'
-        
+        install_requires=[
+            'python-dotenv==1.0.1',
+            'requests==2.32.3',
+            'kiteconnect==5.0.1'
+        ],
         keywords=['python', 'first package'],
         classifiers= [
             "Development Status :: 3 - Alpha",
