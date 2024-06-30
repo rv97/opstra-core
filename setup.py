@@ -7,7 +7,7 @@ LONG_DESCRIPTION = 'Utility functions for Opstra'
 # Setting up
 setup(
         # the name must match the folder name 'verysimplemodule'
-        name="opstra-core", 
+        name="opstra_core", 
         version=VERSION,
         author="Vignesh R",
         description=DESCRIPTION,
