@@ -14,7 +14,6 @@ setup(
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
         install_requires=[
-            'python-dotenv==1.0.1',
             'requests==2.32.3',
             'kiteconnect==5.0.1'
         ],
