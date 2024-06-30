@@ -1,1 +1,1 @@
-from src.session import print_hello
+from session import print_hello
